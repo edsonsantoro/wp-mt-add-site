@@ -50,10 +50,9 @@
 		"post-create-project-cmd": [
 			"composer run generate-salts",
 			"php -r \"rename('.env.example', '.env');\"",
-			"php -r \"symlink('/var/opt/wp', 'web/wp');\"",
-			"php -r \"symlink('/var/opt/wp/wp-content/themes', 'web/app/themes');\"",
-			"php -r \"symlink('/var/opt/wp/wp-content/plugins', 'web/app/plugins');\"",
-			"php -r \"symlink('/var/opt/wp/wp-content/mu-plugins', 'web/app/mu-plugins');\""
+			"php -r \"symlink('~/app.nojapao.net/web/wp', 'web/wp');\"",
+			"php -r \"symlink('~/app.nojapao.net/web/wp/wp-content/plugins', 'web/app/plugins');\"",
+			"php -r \"symlink('~/app.nojapao.net/web/wp/wp-content/mu-plugins', 'web/app/mu-plugins');\""
 		],
 		"generate-salts": [
 			"echo '<?php' > conf/wp-salts.php && curl -L https://api.wordpress.org/secret-key/1.1/salt/ >> conf/wp-salts.php"
