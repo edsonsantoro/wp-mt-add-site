@@ -57,7 +57,7 @@
 		"generate-salts": [
 			"echo '<?php' > conf/wp-salts.php && curl -L https://api.wordpress.org/secret-key/1.1/salt/ >> conf/wp-salts.php"
 		],
-		"config env": [
+		"config-env": [
 			"chmod +x config.sh"
 		],
 	},
