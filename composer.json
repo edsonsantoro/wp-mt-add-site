@@ -1,7 +1,7 @@
 {
-	"name": "handpressed/wp-multitenancy-add-site",
+	"name": "edsonsantoro/wp-multitenancy-add-site",
 	"type": "project",
-	"description": "Adds WordPress sites to handpressed/wp-multitenancy-boilerplate.",
+	"description": "Adds WordPress sites to edsonsantoro/wp-multitenancy-boilerplate.",
 	"keywords": [
 		"WordPress",
 		"multitenancy",
