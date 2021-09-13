@@ -59,7 +59,7 @@
 		],
 		"config-env": [
 			"chmod +x config.sh"
-		],
+		]
 	},
 	"support": {
 		"issues": "https://github.com/handpressed/wp-multitenancy-add-site/issues",
