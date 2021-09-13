@@ -51,7 +51,6 @@
 			"composer run generate-salts",
 			"php -r \"rename('.env.example', '.env');\"",
 			"ln -s ~/app.nojapao.net/web/wp web/wp",
-			"ln -s ~/app.nojapao.net/web/wp/wp-content/plugins web/app/plugins",
 			"ln -s ~/app.nojapao.net/web/app/mu-plugins web/app/mu-plugins"
 		],
 		"generate-salts": [
